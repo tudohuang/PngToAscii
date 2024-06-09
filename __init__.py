@@ -1,1 +1,1 @@
-from .main import image_to_ascii
+from PngToAscii import image_to_ascii
