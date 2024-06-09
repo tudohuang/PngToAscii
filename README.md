@@ -17,3 +17,4 @@ png_to_ascii path --width width
 ```
 
 ## Examples
+![image](https://github.com/tudohuang/PngToAscii/assets/88125758/d1dcd8c9-98cb-421c-a314-e0b989863c98)
