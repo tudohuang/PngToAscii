@@ -3,7 +3,9 @@ Png to ascii(important, colorful!)
 
 ## Installation:
 ```bash
-pip install git+https://github.com/tudohuang/PngToAscii.git
+git clone https://github.com/tudohuang/PngToAscii.git
+cd PngToAscii
+pip install .
 ```
 
 ## How to use?
