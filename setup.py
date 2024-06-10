@@ -10,7 +10,7 @@ setup(
         ],
     },
     install_requires=[
-        Pillow
+        "Pillow"
     ],
     include_package_data=True,
     license="MIT",
