@@ -1,7 +1,7 @@
-from .PngToAscii import image_to_ascii
 import argparse
+from .PngToAscii import image_to_ascii  
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Convert an image to an ASCII art representation.")
     parser.add_argument("path", type=str, help="The path to the image file.")
     parser.add_argument("--width", type=int, default=100, help="The output width of the ASCII art (default: 100).")
@@ -10,3 +10,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     image_to_ascii(args.path, args.width, args.characters)
+
+if __name__ == "__main__":
+    main()
