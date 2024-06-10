@@ -1,5 +1,5 @@
+from .PngToAscii import image_to_ascii
 import argparse
-from .PngToAscii import image_to_ascii  
 
 def main():
     parser = argparse.ArgumentParser(description="Convert an image to an ASCII art representation.")
